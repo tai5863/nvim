@@ -1,0 +1,1 @@
+<html><body>You are being <a href="https://github.com/w0ng/vim-hybrid/blob/master/colors/hybrid.vim">redirected</a>.</body></html>

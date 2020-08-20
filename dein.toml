@@ -1,0 +1,27 @@
+[[plugins]]
+repo = '/home/tai5863/.cache/dein/repos/github.com/Shougo/dein.vim'
+
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+hook_source = '''
+  autocmd StdinReadPre * let s:std_in = 1
+  autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+  let g:NERDTreeShowHidden=1
+  nnoremap <silent><C-n> :NERDTreeToggle<CR>
+'''
+
+[[plugins]]
+repo = 'Townk/vim-autoclose'
+
+[[plugins]]
+repo = 'Yggdroot/indentLine'
+
+[[plugins]]
+repo = 'sheerun/vim-polyglot'
+
+# [[plugins]]
+# repo = 'Shougo/neosnippet-snippets'
+
+[[plugins]]
+repo = 'jacoborus/tender.vim'
+
